@@ -1,0 +1,27 @@
+order-list h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.order {
+    border: 1px solid $light-grey;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.order button:last-of-type {
+    margin-bottom: 0.5rem;
+}
+
+.order-produkt {
+    margin-bottom: 1px;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.order .name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid $light-grey;
+    margin-bottom: 10px;
+}

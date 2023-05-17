@@ -1,0 +1,16 @@
+{
+  "name": "lager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {    
+    "style": "sass base.scss style.min.css --no-source-map",
+    "style-min": "sass base.scss style.min.css  --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.61.0"
+  }
+}

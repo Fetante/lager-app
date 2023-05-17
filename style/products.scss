@@ -1,0 +1,54 @@
+product-list {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+}
+
+product-list h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.product {
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.product-info .name {
+    margin-bottom: 0.5rem;
+}
+
+single-product:nth-child(even) {
+    background-color: $dark-grey;
+}
+
+single-product:nth-child(odd) {
+    background-color: $white;
+}
+
+.order {
+    border: 1px solid $light-grey;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.saldo {
+    font-weight: 10;
+    font-size: 0.9rem;
+    margin: 5px;
+}
+
+.plats {
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+.saldo-plats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
